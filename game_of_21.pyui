@@ -1,0 +1,260 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{432, 205}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "check_button_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Check",
+          "uuid" : "A6B42E14-A796-4F40-BE0E-EC0F076C75B9",
+          "class" : "Button",
+          "name" : "check_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{305, 205}, {119, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "extra_button_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Extra Card",
+          "uuid" : "DAD10D35-BCD7-41B6-8B25-F4E814B23AD4",
+          "class" : "Button",
+          "name" : "extra_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{139, 18}, {242, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "player_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "6529BAB7-65C2-48BE-8549-966E9C2393E5",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Player’s Cards Dealt",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{139, 257}, {248, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "dealer_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "820B2802-4EEF-42C4-BA63-2B094529F831",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Computers’s Cards Dealt",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 205}, {244, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "question_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "FA0D38F0-3FB4-4F32-8771-0338F2094EE1",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Would you like an extra card?",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{228, 484}, {82, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "play_again_button_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Play Again",
+          "uuid" : "5924A281-235C-4B95-892A-1D6685770C17",
+          "class" : "Button",
+          "name" : "play_again_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 444}, {481, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "B2F6D82F-3A0D-45CC-9A12-722BC35DCBB8",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 408}, {481, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "66F4AAAE-86BE-4CBF-9B9B-9D03618B081A",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "compCardSum_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 157}, {481, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "DA026185-E439-41F9-9C9B-B16F3FDE1507",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "userCardSum_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 58}, {107, 91}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "userCardOne_image",
+          "uuid" : "58DCCCC3-8A2C-48D7-8F57-350F592FC157"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{215, 58}, {107, 91}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "userCardTwo_image",
+          "uuid" : "58DCCCC3-8A2C-48D7-8F57-350F592FC157"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{405, 58}, {107, 91}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "userCardThree_image",
+          "uuid" : "58DCCCC3-8A2C-48D7-8F57-350F592FC157"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 309}, {107, 91}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "compCardOne_image",
+          "uuid" : "58DCCCC3-8A2C-48D7-8F57-350F592FC157"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{215, 309}, {107, 91}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "compCardTwo_image",
+          "uuid" : "58DCCCC3-8A2C-48D7-8F57-350F592FC157"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{398.5, 309}, {107, 91}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{220, 220}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "compCardThree_image",
+          "uuid" : "58DCCCC3-8A2C-48D7-8F57-350F592FC157"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
